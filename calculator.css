@@ -1,0 +1,82 @@
+.main{
+	width: 25%;
+	margin-top: 20px;
+	margin-right: 20%;
+	margin-left: 20%;
+	border: 1px solid black;
+	background-color: black;
+	/*position: relative;*/
+	border-radius: 5px;
+	
+}
+.display input{
+	border-radius: 10px;
+	height: 100px;
+	width: 85%;
+	text-align: right;
+	margin-top: 20px;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	margin-bottom: 10px;
+	color: white;
+	font-size: 24px;
+	background-color: black;
+
+}
+
+.keys{
+	
+	width: 90%;
+	margin-top: 20px;
+	margin-left: 17%;
+
+	margin-right: 10%;
+	margin-bottom: 20px;
+	
+}
+.opr{
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	border: 1px solid #73EBFC;
+	box-shadow: 4px;
+	background-color: #73EBFC ;
+	color: white;
+	font-size: 21px;
+	margin-top: 10px;
+}
+.num{
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	border: 1px solid darkgray;
+	box-shadow: 10px;
+	
+	background-color: darkgray ;
+	color: white;
+	font-size: 22px;
+	margin-top: 10px;
+}
+.eql{
+	height: 50px;
+	width: 80px;
+	border-radius: 20px;
+	border: 1px solid #73EBFC;
+	box-shadow: 4px;
+	background-color:#73EBFC  ;
+	color: white;
+	font-size: 22px;
+
+}
+@media screen and (max-width: 360px)
+{
+	.main{
+	width: 90%;
+	margin-top: 20px;
+	margin-right: 10%;
+	margin-left: 5%;
+	
+	
+	
+
+}

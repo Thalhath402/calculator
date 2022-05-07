@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+	<div class="main">
+		<div class="display">
+			<input type="text" id="result" value=" ">
+		</div>
+		<div class="keys">
+			
+			<button class="opr"  onclick="clearscreen('AC')" >AC</button>
+			<button class="opr"  onclick="display('/')" >/</button>
+			<button class="opr" onclick="display('%')" >%</button>
+			<button class="opr" onclick="display('-')">-</button><br>
+
+			<button class="num"  onclick="display('1')" >1</button>
+			<button class="num" onclick="display('2')">2</button>
+			<button class="num" onclick="display('3')">3</button>
+			<button class="opr" onclick="display('*')">*</button><br>
+
+
+			<button class="num" onclick="display('4')">4</button>
+			<button class="num" onclick="display('5')">5</button>
+			<button class="num" onclick="display('6')">6</button>
+			<button class="opr" onclick="display('+')">+</button><br>
+
+			<button class="num" onclick="display('7')">7</button>
+			<button class="num" onclick="display('8')">8</button>
+			<button class="num" onclick="display('9')">9</button>
+			<button class="num" onclick="display('0')">0</button><br>
+
+			<button class="num" onclick="display('00')">00</button>
+			<button class="num" onclick="display('.')">.</button>
+		    <button class="eql" onclick="oparation('=')">=</button>
+
+
+
+
+		</div>
+	</div>
+<script src="calculator.js"></script>
+</body>
+</html>
